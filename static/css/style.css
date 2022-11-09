@@ -1,0 +1,108 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    /* outline: 1px solid red; */
+    font-size: 26px;
+}
+
+.row, .row-sb, .row-c, .row-fs {
+    display: flex;
+}
+
+.row-sb {
+    justify-content: space-between;
+}
+
+.row-c {
+    justify-content: center;
+}
+
+.row-fs {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-top: 20px;
+    width: 600px;
+    border: 1px solid black;
+    padding-bottom: 150px;
+
+}
+
+form > * {
+    padding: 0 25px;
+    margin: 10px 0;
+}
+
+button {
+    font-size: 16px;
+    width: 83px;
+    height: 33px;
+    background-color: #4175dd;
+    box-shadow: black 2px 2px;
+    color: white;
+}
+
+form > div:last-child {
+    text-align: end;
+}
+
+select, input {
+    width: 275px;
+}
+
+input {
+    width: 273px;
+}
+
+span {
+    margin-bottom: 5px;
+}
+
+.encuesta-container { 
+    width: 500px;
+    padding-bottom: 150px;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+.encuesta-container > * { 
+    margin: 10px 25px;
+}
+
+.encuesta-container div div span:first-child {
+    display: inline-block;
+    width: 210px;
+    margin-right: 25px;
+}
+
+.encuesta-container div > div {
+    margin-top: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+#server-message {
+    width: 547px;
+    background-color: #bdd6ac;
+    border: 2px solid black;
+    padding: 0 26px;
+    margin-top: 20px;
+}
+
+#server-message > * {
+    margin: 15px 0;
+}
+
+.none-display {
+    display: none;
+}
